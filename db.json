@@ -1,14 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+"calculatedRewards": {
+    "calculatedReward": [
+        {
+            "totalReward": {
+            "type": "PointsReward",
+            "description": "Morrisons Base Points Promotion",
+            "displayFormattedReward": null,
+            "id": 1,
+            "amount": 90,
+            "scheme": "more-morrisons"
+            },
+            "promotionReference": "117392f1-d283-4679-9f51-476243583c09",
+            "triggerReference": 1,
+            "bucketReference": 1,
+                "matchedMembers": {
+                    "matchedMember": [
+                        {
+                            "member": {
+                                "type": "TotalSpendMember",
+                                "id": 1,
+                                "description": "Qualifying Spend Member"
+                            },
+                            "matchCount": 18.25,
+                            "apportionedRewardValue": 90
+                         }
+                    ]
+                }
+        }
+    ]
 }
