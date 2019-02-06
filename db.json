@@ -1,18 +1,18 @@
 {
-"calculatedRewards": {
-    "calculatedReward": [
-        {
-            "totalReward": {
-            "type": "PointsReward",
-            "description": "Morrisons Base Points Promotion",
-            "displayFormattedReward": null,
-            "id": 1,
-            "amount": 90,
-            "scheme": "more-morrisons"
-            },
-            "promotionReference": "117392f1-d283-4679-9f51-476243583c09",
-            "triggerReference": 1,
-            "bucketReference": 1,
+    "calculatedRewards": {
+        "calculatedReward": [
+            {
+                "totalReward": {
+                    "type": "PointsReward",
+                    "description": "Morrisons Base Points Promotion",
+                    "displayFormattedReward": null,
+                    "id": 1,
+                    "amount": 90,
+                    "scheme": "more-morrisons"
+                },
+                "promotionReference": "117392f1-d283-4679-9f51-476243583c09",
+                "triggerReference": 1,
+                "bucketReference": 1,
                 "matchedMembers": {
                     "matchedMember": [
                         {
@@ -26,6 +26,7 @@
                          }
                     ]
                 }
-        }
-    ]
+            }
+        ]
+    }
 }
